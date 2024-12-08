@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEXPRO</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link rel="stylesheet" href="./css/swiper-min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="start">
+              <a href="#!" class="header__logo">
+                <img src="./images/logo.svg" alt="LEXPRO" />
+              </a>
+            </div>
+
+            <div class="end">
+              <div class="header__actions">
+                <button class="btn-reset header__actions-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19"
+                    height="17"
+                    viewBox="0 0 19 17"
+                    fill="none"
+                  >
+                    <path
+                      d="M19 0.602225L15.9946 16.2923C15.9946 16.2923 15.5741 17.3801 14.4189 16.8584L7.48458 11.3526L7.45242 11.3364C8.38909 10.4654 15.6524 3.70266 15.9698 3.39612C16.4613 2.92136 16.1562 2.63873 15.5856 2.99736L4.85679 10.053L0.717638 8.61077C0.717638 8.61077 0.0662573 8.37083 0.00359284 7.84911C-0.0598962 7.32653 0.739076 7.0439 0.739076 7.0439L17.6131 0.188948C17.6131 0.188948 19 -0.44207 19 0.602225Z"
+                      fill="white"
+                    />
+                  </svg>
+
+                  <span>Написати в телеграм</span>
+                </button>
+                <a href="tel:+38(099)9999999" class="header__actions-num"
+                  >+38 (099) 999 99 99</a
+                >
+              </div>
+
+              <ul class="header__lang list-reset">
+                <li class="header__lang-item">
+                  <a href="#!" class="header__lang-link active">UA</a>
+                </li>
+
+                <li class="header__lang-item">|</li>
+
+                <li class="header__lang-item">
+                  <a href="#!" class="header__lang-link">RU</a>
+                </li>
+              </ul>
+
+              <a href="#" class="header__btn">
+                <img src="./images/btn.png" alt="LEXPRO" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="hero" id="from-hero">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="start">
+                <div class="hero-content">
+                  <h1 class="hero-content__title">
+                    Запис на 🔥 БЕЗКОШТОВНУ 🔥консультацію від юридичної
+                    компанії ЛЕКСПРО
+                  </h1>
+
+                  <div class="hero-content__blocks">
+                    <div class="hero-content__blocks-item">
+                      <img src="./images/pre1.png" alt="LEXPRO" />
+
+                      <p class="hero-content__blocks-subtitle">
+                        Святковий купон на
+                        <span>знижку від 1000 грн</span> можно отримати за
+                        посиланням у менеджера після заповнення анкети
+                      </p>
+                    </div>
+
+                    <div class="hero-content__blocks-item">
+                      <img src="./images/pre2.png" alt="LEXPRO" />
+
+                      <p class="hero-content__blocks-subtitle">
+                        Анкета ні до чого не зобов'язує, але заповнюйте її, якщо
+                        готові вийти з нами на короткий дзвінок.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="end">
+                <form class="form from-hero" action="#" method="post">
+                  <p class="form-title">
+                    ⚠️ Поспішайте! ⚠️  <br />
+                    Залишилося лише 4 з 10 безкоштовних місць!
+                  </p>
+                  <div class="form__group">
+                    <input
+                      class="form__input"
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Ім'я"
+                      required
+                    />
+                  </div>
+
+                  <div class="form__group">
+                    <input
+                      class="form__input"
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="+38 (000) 000 00 00"
+                      pattern="^\+38\s?\(?\d{3}\)?\s?\d{3}\s?\d{2}\s?\d{2}$"
+                      required
+                    />
+                  </div>
+
+                  <div class="form__group form__fieldset">
+                    <h4 class="form__legend">
+                      Оберіть свій запит для безкоштовної консультації:
+                    </h4>
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio-input"
+                        type="radio"
+                        name="request"
+                        value="cadaster"
+                        required
+                      />
+                      Отримання кадастрового номера
+                    </label>
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio-input"
+                        type="radio"
+                        name="request"
+                        value="privatization"
+                      />
+                      Приватизація земельної ділянки
+                    </label>
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio-input"
+                        type="radio"
+                        name="request"
+                        value="legalization"
+                      />
+                      Узаконення самобуду
+                    </label>
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio-input"
+                        type="radio"
+                        name="request"
+                        value="reconstruction"
+                      />
+                      Допомога з реконструкцією
+                    </label>
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio-input"
+                        type="radio"
+                        name="request"
+                        value="rent-or-buy"
+                      />
+                      Оренда або викуп землі
+                    </label>
+                  </div>
+
+                  <div class="form__group">
+                    <h4 class="form__legend">
+                      Який маєте запит на цю консультацію?
+                    </h4>
+                    <textarea
+                      class="form__textarea"
+                      id="details"
+                      name="details"
+                      placeholder="Опишіть Вашу ситуацію детально, щоб ми могли надати максимально корисну допомогу."
+                    ></textarea>
+                  </div>
+
+                  <button class="form__button btn-reset" type="submit">
+                    Отримати консультацію
+                  </button>
+                </form>
+
+                <img src="./images/f1.png" alt="LEXPRO" class="sep-1" />
+
+                <img src="./images/f2.png" alt="LEXPRO" class="sep-2" />
+              </div>
+
+              <div class="hero-content__blocks hero-content__blocks-ph">
+                <div class="hero-content__blocks-item">
+                  <img src="./images/pre1.png" alt="LEXPRO" />
+
+                  <p class="hero-content__blocks-subtitle">
+                    Святковий купон на
+                    <span>знижку від 1000 грн</span> можно отримати за
+                    посиланням у менеджера після заповнення анкети
+                  </p>
+                </div>
+
+                <div class="hero-content__blocks-item">
+                  <img src="./images/pre2.png" alt="LEXPRO" />
+
+                  <p class="hero-content__blocks-subtitle">
+                    Анкета ні до чого не зобов'язує, але заповнюйте її, якщо
+                    готові вийти з нами на короткий дзвінок.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="info">
+          <div class="container">
+            <div class="info__inner">
+              <h1 class="title">
+                💡Ми допоможемо Вам розібратися з важливими питаннями:
+              </h1>
+
+              <div class="info__blocks">
+                <div class="info__blocks-item">
+                  <h4 class="info__blocks-title">
+                    Як правильно оформити будинок, щоб уникнути юридичних
+                    проблем?
+                  </h4>
+                  <span class="sap">
+                    <img src="./images/1.png" alt="LEXPRO" />
+                  </span>
+                </div>
+
+                <div class="info__blocks-item">
+                  <h4 class="info__blocks-title">
+                    Що потрібно для приватизації земельної ділянки?
+                  </h4>
+                  <span class="sap">
+                    <img src="./images/2.png" alt="LEXPRO" />
+                  </span>
+                </div>
+
+                <div class="info__blocks-item">
+                  <h4 class="info__blocks-title">
+                    Як отримати кадастровий номер максимально швидко та без
+                    помилок?
+                  </h4>
+                  <span class="sap">
+                    <img src="./images/3.png" alt="LEXPRO" />
+                  </span>
+                </div>
+
+                <div class="info__blocks-item">
+                  <h4 class="info__blocks-title">
+                    Що робити, якщо потрібно узаконити самобуд?
+                  </h4>
+                  <span class="sap">
+                    <img src="./images/4.png" alt="LEXPRO" />
+                  </span>
+                </div>
+
+                <div class="info__blocks-item">
+                  <h4 class="info__blocks-title">
+                    Як організувати оренду чи викуп земельної ділянки?
+                  </h4>
+                  <span class="sap">
+                    <img src="./images/5.png" alt="LEXPRO" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="fag">
+          <div class="container">
+            <div class="fag__inner">
+              <h1 class="title">💡Як це працює?</h1>
+
+              <div class="fag__blocks">
+                <div class="fag__blocks-item">
+                  <div class="fag__blocks-icon">
+                    <img src="./images/11.png" alt="LEXPRO" />
+                  </div>
+                  <h4 class="fag__blocks-title">
+                    Заповніть анкету (це займе лише 4 хвилини).
+                  </h4>
+                </div>
+
+                <div class="fag__blocks-item">
+                  <div class="fag__blocks-icon">
+                    <img src="./images/12.png" alt="LEXPRO" />
+                  </div>
+                  <h4 class="fag__blocks-title">
+                    Після заповнення Ви отримаєте посилання на телеграм-чат із
+                    менеджером.
+                  </h4>
+                </div>
+
+                <div class="fag__blocks-item">
+                  <div class="fag__blocks-icon">
+                    <img src="./images/13.png" alt="LEXPRO" />
+                  </div>
+                  <h4 class="fag__blocks-title">
+                    Щоб отримати свою гарантовану знижку перейдіть за посиланням
+                    та напишіть слово "КУПОН"
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="plus">
+          <div class="container">
+            <div class="plus__inner">
+              <h1 class="title">🔥 Чому це вигідно?</h1>
+
+              <div class="plus__blocks">
+                <div class="plus__blocks-item">
+                  <div class="plus__blocks-icon">
+                    <img src="./images/14.png" alt="LEXPRO" />
+                  </div>
+                  <h4 class="plus__blocks-title">
+                    Ви отримаєте професійну допомогу
+                    <span>абсолютно безкоштовно</span>
+                    (звичайна її вартість – 2000 грн.).
+                  </h4>
+                </div>
+
+                <div class="plus__blocks-item">
+                  <div class="plus__blocks-icon">
+                    <img src="./images/15.png" alt="LEXPRO" />
+                  </div>
+                  <h4 class="plus__blocks-title">
+                    Додатково ми подаруємо
+                    <span>купон на знижку від 1000 грн</span> на будь-яку нашу
+                    послугу.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <a href="#from-hero" class="footer__btn btn-reset"
+              >Отримати консультацію</a
+            >
+
+            <div class="top">
+              <div class="start">
+                <h3 class="footer__title">Зв’язатись з нами</h3>
+
+                <ul class="footer__social list-reset">
+                  <li class="footer__social-item">
+                    <a href="#!" class="footer__social-link">
+                      <img src="./images/111.svg" alt="LEXPRO" />
+                    </a>
+                  </li>
+
+                  <li class="footer__social-item">
+                    <a href="#!" class="footer__social-link">
+                      <img src="./images/112.svg" alt="LEXPRO" />
+                    </a>
+                  </li>
+
+                  <li class="footer__social-item">
+                    <a href="#!" class="footer__social-link">
+                      <img src="./images/113.svg" alt="LEXPRO" />
+                    </a>
+                  </li>
+
+                  <li class="footer__social-item">
+                    <img src="./images/fing.png" alt="LEXPRO" />
+                  </li>
+                </ul>
+              </div>
+
+              <div class="end">
+                <h3 class="footer__title">Наші соц мережі</h3>
+
+                <ul class="footer__social list-reset">
+                  <li class="footer__social-item">
+                    <a href="#!" class="footer__social-link">
+                      <img src="./images/ings.svg" alt="LEXPRO" />
+                    </a>
+                  </li>
+
+                  <li class="footer__social-item">
+                    <a href="#!" class="footer__social-link">
+                      <img src="./images/117.png" alt="LEXPRO" />
+                    </a>
+                  </li>
+
+                  <li class="footer__social-item">
+                    <a href="#!" class="footer__social-link">
+                      <img src="./images/fac.svg" alt="LEXPRO" />
+                    </a>
+                  </li>
+
+                  <li class="footer__social-item">
+                    <img src="./images/fing.png" alt="LEXPRO" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bottom">
+              <div class="start">
+                <ul class="footer__list list-reset">
+                  <li class="footer__list-item">
+                    <a href="tel:+38(099)9999999" class="footer__list-link">
+                      <img src="./images/tel.svg" alt="LEXPRO" />
+                      <span>+38 (099) 999 99 99</span>
+                    </a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a href="mailto:lexpro@gmai.com" class="footer__list-link">
+                      <img src="./images/mail.svg" alt="LEXPRO" />
+                      <span>lexpro@gmai.com</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="end">
+                <ul class="footer__list list-reset">
+                  <li class="footer__list-item">
+                    <a href="tel:+38(099)9999999" class="footer__list-link">
+                      <img src="./images/loc.svg" alt="LEXPRO" />
+                      <span
+                        >61003, м. Харків, вул. Квітки-Основьяненка 15, 6й
+                        під'їзд, 4 поверх, офіс 64-01</span
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="footer__copyright">
+        <p>Lexpro 2023 Всі права захищені</p>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/swiper-min.js"></script>
+  </body>
+</html>
